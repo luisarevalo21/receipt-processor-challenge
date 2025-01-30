@@ -65,8 +65,9 @@ To install and run this program, follow these steps:
    ### GET /receipts/{id}/points
 
    1. Create a new GET request in Postman.
-   2. Set the URL to `http://localhost:3001/receipts/{id}/points`, replacing `{id}` with the `id` received from the POST request.
-   3. Send the request to get the points for the given receipt.
+   2. Set the URL to `http://localhost:3001/receipts/{id}/points`, replacing `{id}` with the `id` received from the POST request.'
+   3. select the params tab and set path variables to id and the value will be the id received from the POST request.
+   4. Send the request to get the points for the given receipt.
 
 ## Usage
 

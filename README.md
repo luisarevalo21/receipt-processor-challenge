@@ -19,22 +19,23 @@ To install and run this program, follow these steps:
    git clone https://github.com/yourusername/fetch-assignment.git
    ```
 
-   2. Navigate to the project directory:
+2. Navigate to the project directory:
 
-      ```bash
-      cd fetch-assignment
-      ```
+   ```bash
+   cd fetch-assignment
+   ```
 
-   3. Build the Docker image:
+3. Build the Docker image:
 
-      ```bash
-      docker build -t fetch-assignment .
-      ```
+   ```bash
+   docker build -t fetch-assignment .
+   ```
 
-   4. Run the Docker container:
-      ```bash
-      docker run -p 3001:3001 fetch-assignment
-      ```
+4. Run the Docker container:
+
+   ```bash
+   docker run -p 3001:3001 fetch-assignment
+   ```
 
    ## Testing the API
 
@@ -95,4 +96,5 @@ This project is licensed under the [Your License] License - see the [LICENSE](LI
 ## Contact
 
 If you have any questions or suggestions, please feel free to contact me at [your email address].
+
 # receipt-processor-challenge

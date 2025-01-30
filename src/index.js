@@ -53,7 +53,6 @@ const calculatePoints = receiptData => {
   //iterate through the items trim the the description
   //check if the length is divisible by 3 if so multiply the price by .25 and round up and add to the total
   for (let item of items) {
-    console.log(item);
     const trimDescription = item.shortDescription.trim();
     const length = trimDescription.length;
 
@@ -96,7 +95,6 @@ app.post("/receipts/process", (req, res) => {
 
     receiptData.set(id, pointTotal);
 
-    console.log("point total!", pointTotal);
     res.send({ id: id });
   } catch (err) {
     res.status(400).json({ err: err.message });
